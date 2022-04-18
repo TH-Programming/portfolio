@@ -1,0 +1,118 @@
+
+.navbar {
+    animation: fadeIn 7s;
+    background-color: black;
+    display: flex;
+    position: sticky;
+    top:0px;
+    left:0px;
+    right:0px;
+    justify-content:end;
+    color: white;
+    min-width: 96vw;
+    margin:0;
+    padding: 0;
+    align-items: right;
+}
+
+.navbutton{
+    font-family: "roboto";
+    font-size: 1rem;
+    text-decoration: none;
+    border-style: line;
+    border-left-color: white;
+    border-left-width: 3px;
+    margin: 0;
+    padding: 10px ;
+    display: inline;
+}
+
+.navbutton > a{
+    color: white;
+    text-decoration: none;
+}
+
+.intro{
+    animation: fadeIn 2.75s;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./public/portfolio_background.jpg");
+    min-width:97vw;
+    max-width:97vw;
+    max-height: 100%;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem ;
+    font-family: roboto;
+    color:rgb(71, 0, 65);
+    Margin: 0;
+}
+
+.name{
+    text-align: center;
+    font-size: 5rem;
+    font-family: roboto;
+    color:rgb(71, 0, 65);
+    margin-bottom:0;
+    padding-top: 5rem;
+}
+
+.location{
+    font-family: roboto;
+    font-size: 2rem;
+    color:rgb(71, 0, 65);
+    text-align: center; 
+}
+
+.slogan{
+    font-family: roboto;
+    animation: fadeIn 6s;
+    font-size: 2rem;
+    text-align: center;
+    color:white;
+    margin: 4em auto 1rem;
+}
+
+.buttons{
+    animation: fadeIn 2s;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5vw ;
+}
+
+.button{
+    font-size: 2rem;
+    background-color:rgb(71, 0, 65);
+    color:white;
+    padding: 30px;
+    /* min-width: 30%; */
+    border-radius: 10px;
+    box-shadow: none;
+    transition-duration: 0.5s;
+    border-color: black;
+    min-width:fit-content;
+}
+
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24), 0 17px 50px 0 rgba(255,255,255,0.19);
+    background-color: rgba(71, 0, 65,0.5)
+}
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+body{
+    margin: 5px;
+    background-color: black;
+}
